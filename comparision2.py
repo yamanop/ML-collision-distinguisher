@@ -34,7 +34,7 @@ print(results_df)
 
 # Save to CSV
 results_df.to_csv("model_comparison_results.csv", index=False)
-print("✅ Comparison saved to model_comparison_results.csv")
+print("Comparison saved to model_comparison_results.csv")
 
 # Plot as image table
 fig, ax = plt.subplots(figsize=(8, 2))  # Resize as needed
